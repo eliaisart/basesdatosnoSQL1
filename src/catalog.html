@@ -18,10 +18,7 @@ th,td {
 <td><input name="submit" type="button" value="Leer Fichero" onclick="loadDoc()"></td>
 <table id="demo"></table>
 <br>
-<!--
-  <td><select id="listaDeRepresentantes" onchange="loadDoc2()"></select></td>
 
--->
 <td><input name="submit" type="button" value="Igualada" onclick="loadTableIgu()"></td>
 <td><input name="submit" type="button" value="Lleida" onclick="loadTableLle()"></td>
 <td><input name="submit" type="button" value="Girona" onclick="loadTableGir()"></td>
@@ -31,77 +28,6 @@ th,td {
 <table id="demo3"></table>
 <table id="demo4"></table>
 
-
-
 <script type="text/javascript" src="catalog.js"></script>
-
-<!--
-
-<script>
-  function req(representante, localidad, telefono, comision){
-    document.getElementById('idrepresentante').innerHTML = representante;
-    document.getElementById('idlocalidad').innerHTML = localidad;
-    document.getElementById('idtelefono').innerHTML = telefono;
-    document.getElementById('idcomision').innerHTML = comision;
-  } 
-</script>
-  
-<br>
-<form id="select_rep" action="">
-  <select name="desplegable">
-    <option value="table_igu" onchange="table_igu">
-      <span>Igualada</span>
-      <table id="table_igu">
-      <tr>
-      <td><span id="idrepresentante"></span>Maria</td>
-      <td><span id="idlocalidad"></span>Igualada</td>
-      <td><span id="idtelefono"></span>123456789</td>
-      <td><span id="idcomision"></span>58%</td>
-    </tr>
-    </table>
-    
-    
-    </option>
-    <option value="table_llei" onchange="table_llei"><span>Lleida</span></option>
-    <option value="table_gir" onchange="table_gir"><span>Girona</span></option>
-  </select>
-</form>
-
-
-
-<table id="table_llei">
-  <tr>
-    <td><span id="idrepresentante"></span>Pablo</td>
-    <td><span id="idlocalidad"></span>Lleida</td>
-    <td><span id="idtelefono"></span>123456789</td>
-    <td><span id="idcomision"></span>58%</td>
-  </tr>
-
-</table><table id="table_gir">
-  <tr>
-    <td><span id="idrepresentante"></span>Rosé</td>
-    <td><span id="idlocalidad"></span>Girona</td>
-    <td><span id="idtelefono"></span>123456789</td>
-    <td><span id="idcomision"></span>58%</td>
-  </tr>
-</table>
-
--->
-
-
-<!--
-<br><br>
-<form id="demo2" action=""> 
-  <select name="representantes">
-    <option value="">ESCOGE LOCALIDAD</option>
-    <option id="igualada" onclick="loadRepr()" value="IGU">Igualada</option>
-    <option id="lleida" onchange="loadRepr()" value="LLE ">Lleida</option>
-    <option id="girona" onchange="loadRepr()" value="GIR">Girona</option>
-  </select>
-</form>
-<br>
-<div id="demo2">Representantes a continuación</div>
--->
-
 </body>
 </html>
