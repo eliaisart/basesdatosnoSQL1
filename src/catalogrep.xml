@@ -1,0 +1,20 @@
+<CATALOG>
+    <CD>
+        <TITLE>Rosé</TITLE> 
+        <ARTIST>Igualada</ARTIST>
+        <COUNTRY>123456789</COUNTRY>
+        <COMPANY>58%</COMPANY>
+    </CD>
+    <CD>
+        <TITLE>Lisa</TITLE>
+        <ARTIST>Igualada</ARTIST>
+        <COUNTRY>27272727</COUNTRY>
+        <COMPANY>27%</COMPANY>
+    </CD>
+    <CD>
+        <TITLE>Jennie</TITLE>
+        <ARTIST>Igualada</ARTIST>
+        <COUNTRY>987654321</COUNTRY>
+        <COMPANY>16%</COMPANY>
+    </CD>
+</CATALOG>
