@@ -12,7 +12,7 @@ function loadDoc() {
   function myFunction(xml: XMLHttpRequest) {
     var i;
     var xmlDoc = xml.responseXML;
-    var table="<tr><th>Artist</th><th>Title</th><th>Country</th><th>Company</th><th>Price</th><th>Year</th></tr>";
+    var table="<tr><th>Title</th><th>Artist</th><th>Country</th><th>Company</th><th>Price</th><th>Year</th></tr>";
     var x = xmlDoc.getElementsByTagName("CD");
     for (i = 0; i <x.length; i++) { 
       table += "<tr><td>" +
